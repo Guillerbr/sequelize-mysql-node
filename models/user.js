@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
 
   User.associate = function(models) {
-    User.belongsTo(models.Company, {foreignKey: 'companyId', as: 'company'})  // associations can be defined here
+    User.belongsTo(models.Company, {foreignKey: 'companyId', as: 'company'})  // associations can be defined here N:N
   };
   return User;
 };
