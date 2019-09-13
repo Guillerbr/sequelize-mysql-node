@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
     isWorking: DataTypes.BOOLEAN
   }, {});
   WorkingDay.associate = function(models) {
-    // associations can be defined here
+    WorkingDay.belongsToMany(models.User, {through: 'UsersWorkingDays', foreignKey: 'workingDayId', as: 'employes'}) 
+    // associations can be defined here N:N
   };
   return WorkingDay;
 };
