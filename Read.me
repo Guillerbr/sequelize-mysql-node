@@ -1,0 +1,1 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuillerbr%2Fsequelize-mysql-node.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FGuillerbr%2Fsequelize-mysql-node?ref=badge_shield)
