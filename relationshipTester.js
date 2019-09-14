@@ -1,9 +1,14 @@
+/*
+
+TESTE SCRIPT FOR INSERT DATA ADN RELATIONS TABLES LOGICS 
+DESCOMENT THE BLOCK FOR USE.
+
 const models = require('./models');
 const User = models.User;
 const Company = models.Company;
 const WorkingDay = models.WorkingDay;
 
-
+*/
 
 /*
 create company funcion
